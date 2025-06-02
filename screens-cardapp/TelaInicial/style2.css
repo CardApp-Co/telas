@@ -1,0 +1,26 @@
+body {
+  background-image: url(../imagens/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+.cadastrese {
+  display: flex;
+  width: 190px;
+  height: 53px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #290101;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 280px;
+  right: 520px;
+}
