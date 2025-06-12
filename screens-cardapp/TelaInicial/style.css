@@ -1,41 +1,56 @@
-.maiorDiv{
-    display: flex;
+.maiorDiv {
+  display: flex;
 }
 
-.col1{
-    background-color: aliceblue;
-    width: 1440px;
-    height: 1024px;
-    flex-shrink: 0;
+.col1 {
+  background-color: rgb(252, 252, 252);
+  width: 1440px;
+  height: 1024px;
 }
 
-
-.col2{
-    background-color: #273060;
-    width: 580.72px;
-    height: 1024px;
-    flex-shrink: 0;
-    text-align: center;
+.col2 {
+  background-color: #273060;
+  width: 580.72px;
+  height: 1024px;
+  text-align: center;
+}
+p {
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
 }
 
 /*p: INÍCIO*/
-.p1{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Arial;
-    margin-top: 268px;
+.p1 {
+  font-size: 30px;
+  margin-top: 268px;
 }
 
-button{
-    color:#273060;
-    background-color: white;
-    width: 240.069px;
-    height: 58.056px;
-    border: none;
-    border-radius: 27px;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 227px;
-    margin-left: 8px;
+/*p: Crie seu site*/
+#p2 {
+  font-size: 20px;
+  margin-top: 18.94px;
+}
+
+button {
+  color: #273060;
+  background-color: white;
+  width: 240.069px;
+  height: 58.056px;
+  border: none;
+  border-radius: 27px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 227px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.5;
 }
