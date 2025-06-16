@@ -1,11 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .maiorDiv {
   display: flex;
+  flex-direction: row;
 }
 
 .col1 {
   background-color: rgb(252, 252, 252);
   width: 1440px;
   height: 1024px;
+  flex: 1
 }
 
 .col2 {
