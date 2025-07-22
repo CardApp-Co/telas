@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardapp - Home Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_main.css" />
+    <link rel="stylesheet" href="style_pratos_sugeridos.css" />
+    <link rel="stylesheet" href="style_header.css" />
 </head>
 
 <body>
     <header>
         <div class="divLogo">
-            <img class="logo" src="../imagens/cardapp-logo-nome.png" alt="cardapp-logo-nome"/>
+            <img class="logo" src="../imagens/cardapp-logo-nome.png" alt="cardapp-logo-nome" />
         </div>
-    
+
         <!--
         <div class="navbar">
             <ul>
@@ -24,15 +26,16 @@
             </ul>
         </div>
     -->
-    <div class="new-navbar">
-        <a href="">LOJA</a>
-        <a href="">PRATOS</a>
-        <a href="">FINANCEIRO</a>
-        <a href="">PERFIL</a>
-    </div>
+        <div class="new-navbar">
+            <a href="">LOJA</a>
+            <a href="">PRATOS</a>
+            <a href="">FINANCEIRO</a>
+            <a href="">PERFIL</a>
+        </div>
 
     </header>
 
+    <!-- SIDEBAR NAO MAIS USADA
     <div id="sidebar" class="sidebar">
         <div class="sidebar-content">
             <img src="../imagens/logotipo2.png" alt="logo" />
@@ -43,29 +46,59 @@
                 <a href="#">NOTIFICAÇÕES</a>
                 <a href="#">INÍCIO</a>
             </div>
-
-
-            <!-- Adicione mais itens conforme necessário -->
         </div>
     </div>
+    -->
+    
 
     <main>
         <!-- COLOCAR VARIAVEL PARA NOME DO RESTAURANTE-->
-        
+
         <div class="container">
             <div class="container-info">
                 <h1>NOME DO RESTAURANTE</h1>
-                <p>NOME DO DONO: carlinhos</p>
-                <p>LOCALIZAÇÃO: Av. Beira Mar 666</p>
-                <p>CNPJ : 1029-123</p>
+                <h1>NOME DO DONO: carlinhos</h1>
+                <h1>EMAIL DO DONO: dono@gmail.com</h1>
+                <h1>LOCALIZAÇÃO: Av. Beira Mar 666</h1>
+                <h1>CNPJ : 1029-123</h1>
+                <h1>CPF: 666.666.666-66</h1>
+                <h1>TELEFONE CELULAR: 9666-6666 </h1>
             </div>
         </div>
 
+        <!--
         <div class="container-localizacao">
             <div class="texto-acima-localizacao">Localização: </div>
-            <!--COLOCAR VARIÁVEL DE LOCALIZAÇÃO-->
             <div class="localizacao"><p>Av. Beira Mar 666</p></div>
         </div>
+        -->
+        <div class="container-pratos-sugeridos">
+            <div class="texto-pratos-sugeridos">Pratos sugeridos</div>
+            <div class="secao-pratos-sugeridos">
+                <div class="container-prato-sugerido">
+                    <div class="prato-imagem"></div>
+                    <p>nome do prato sugerido</p>
+                </div>
+                <div class="container-prato-sugerido">
+                    <div class="prato-imagem"></div>
+                    <p>nome do prato sugerido</p>
+                </div>
+                <div class="container-prato-sugerido">
+                    <div class="prato-imagem"></div>
+                    <p>nome do prato sugerido</p>
+                </div>
+                <div class="container-prato-sugerido">
+                    <div class="prato-imagem"></div>
+                    <p>nome do prato sugerido</p>
+                </div>
+                <div class="container-prato-sugerido">
+                    <div class="prato-imagem"></div>
+                    <p>rabadana de cuscuz com farofa e sorvete</p>
+                </div>
+            </div>
+        </div>
+
+
     </main>
     <script src="sidebar.js"></script>
 </body>
