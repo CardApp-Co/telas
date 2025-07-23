@@ -1,26 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
-
-body {
-  background-color: white;
-}
-
-
-.logo {
-  text-align: center;
-  background: transparent;
-  margin: 0px auto;
-}
-
-.divLogo {
-  text-align: center;
-  background: #273060;
-  padding: 10px 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Julius Sans One;
+  font-family: Julius Sans One, Roboto;
   color: #273060;
 }
 
@@ -29,90 +13,42 @@ body {
 }
 
 body {
-  min-height: 100vh;
+  padding-bottom: 50px;
+  background-color: white;
 }
 
-.navbar {
-  text-align: center;
-  /* background-color: blueviolet; */
-  box-shadow: 1px 0px 10px 1px rgba(0, 0, 0, 0.2);
-}
+/*MAIN*/
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  display: inline-block;
-  /*background-color: violet;*/
-  font-family: "Julius Sans One";
-  font-size: 20px;
-  padding: 15px 70px;
-  margin: 8px 0px;
-  cursor: pointer;
-  vertical-align: middle;
-  transition: opacity 0.15s;
-}
-
-.navbar ul li:hover {
-  /*color: rgba(0, 0, 0, 0.6);*/
-  opacity: 0.6;
-}
-
-#user-male {
-  padding: 0px 0px;
-  /* background-color: blueviolet;*/
-  float: left;
-  margin-left: 15px;
-}
-
-#user-male:hover {
-  opacity: 0.6;
-}
-
-/* Sidebar styles */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: -300px;
-  width: 300px;
-  height: 100vh;
-  background: white;
-  color: #131a43;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  transition: left 0.3s ease;
-  z-index: 1000;
+/*
+.container-localizacao{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  margin-top: 68px;
 }
 
-.sidebar.sidebar-open {
-  left: 0;
+.texto-acima-localizacao{
+  font-size: 50px;
+  background-color: #273060;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  width: 637px;
+  height: 51px;
 }
-
-.sidebar-list {
+.localizacao{
   display: flex;
   flex-direction: column;
-  text-align: left;
+  border: 5px solid #273060;
+  width: 963px;
+  height: 100px;
+  justify-content: center;
 }
 
-.sidebar-list a {
-  text-decoration: none;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid black;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  transition: opacity 0.15s;
+.localizacao p{
+  color: #273060;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.sidebar-list a:hover {
-  opacity: 0.6;
-}
-
-.sidebar-content {
-  padding: 30px 20px;
-}
+*/

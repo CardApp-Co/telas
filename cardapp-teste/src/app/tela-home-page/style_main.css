@@ -1,0 +1,36 @@
+main {
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  background-image: url(/imagens/imagem-placeholder.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: calc(-50vw + 50%);
+  box-sizing: border-box;
+}
+
+.container-info {
+  background: rgba(242, 241, 213, 0.25);
+  backdrop-filter: blur(7.5px);
+  padding: 40px 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container-info h1 {
+  font-weight: 700;
+  margin: 20px 0px;
+}
