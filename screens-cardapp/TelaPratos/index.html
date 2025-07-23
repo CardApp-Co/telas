@@ -1,15 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_header.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_modal.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>Cardapp - TelaPratos</title>
 </head>
 
 <body>
 
+    <header>
+        <div class="divLogo">
+            <img class="logo" src="../imagens/cardapp-logo-nome.png" alt="cardapp-logo-nome" />
+        </div>
+        <div class="new-navbar">
+            <a href="../TelaHomePage/index.html">LOJA</a>
+            <a href="">PRATOS</a>
+            <a href="">FINANCEIRO</a>
+            <a href="">PERFIL</a>
+        </div>
+    </header>
+
+    <div class="container-criar-secao">
+        <button class="open-modal" data-modal="modal-1">
+            <span>Criar Seção</span>
+            <div>
+                <i class="fa-solid fa-circle-plus adicionar-secao"></i>
+            </div>
+        </button>
+    </div>
+
+    <div class="container-secao">
+        <div class="container-secao-div-acima">
+            <span>
+                <!--COLOCAR NOME DA SEÇÃO-->
+                Seção sem nome
+                <button class="open-modal" data-modal="modal-3"><i class="fa-solid fa-pencil"></i></button>
+                <button class="open-modal" data-modal="modal-2"><i class="fa-solid fa-trash-can""></i></button>
+            </span>
+        </div>
+        <div class=" container-secao-pratos">
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>nome do prato</p>
+                        </div>
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>cuscuz com ovo e queijo e rabanada e arroz e feijao e whey de banana da growth</p>
+                        </div>
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>nome do prato</p>
+                        </div>
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>nome do prato</p>
+                        </div>
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>nome do prato</p>
+                        </div>
+                        <div class="container-prato">
+                            <div class="prato-imagem"></div>
+                            <p>nome do prato</p>
+                        </div>
+
+                        <button class="open-modal" data-modal="modal-4">
+                            <div class="adicionar-prato">
+                                <i class="fa-solid fa-circle-plus"></i>
+                                <span>Adicionar novo item</span>
+                            </div>
+                        </button>
+        </div>
+    </div>
+
+    
+
+    
+
+
+    <!--MODAIS-->
+
+    <dialog id="modal-1">
+        <form class="container-modal">
+            <p>Adicionar nova seção</p>
+            <input type="text" placeholder="Nome da Seção">
+            <div class="container-buttons">
+                <button class="close-modal botao-close" data-modal="modal-1" type="button">Cancelar</button>
+                <button class="botao-submit" type="submit">Criar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="modal-2">
+        <form class="container-modal">
+            <p>Excluir seção</p>
+            <p1>Você tem certeza que deseja excluir esta seção permanentemente?</p1>
+            <div class="container-buttons">
+                <button class="close-modal botao-close" data-modal="modal-2" type="button">Cancelar</button>
+                <button class="botao-submit" type="submit">Criar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="modal-3">
+        <form class="container-modal">
+            <p>Editar nome de seção</p>
+            <input type="text" placeholder="Renomear nome da seção">
+            <div class="container-buttons">
+                <button class="close-modal botao-close" data-modal="modal-3" type="button">Cancelar</button>
+                <button class="botao-submit" type="submit">Editar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="modal-4">
+        <form class="container-modal">
+            <p>Adicionar novo item</p>
+            <div class="container-input">
+                <label>Digite o nome do item</label>
+                <input type="text" placeholder="Baião de dois">
+            </div>
+            <div class="container-input">
+                <label>Adicione uma pequena descrição ao item</label>
+                <input type="text" placeholder="Vegano e sem conservante">
+            </div>
+            <div class="container-input">
+                <label>Adicione uma foto</label>
+                <div>
+                    <label for="input-file"><i class="fa-solid fa-upload"></i></label>
+                    <input id="input-file" type="file">
+                </div>
+            </div>
+            <div class="container-buttons">
+                <button class="close-modal botao-close" data-modal="modal-4" type="button">Cancelar</button>
+                <button class="botao-submit" type="submit">Adicionar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
