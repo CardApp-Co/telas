@@ -10,7 +10,7 @@ export default function TelaCadastro() {
         <>
             <img id="img-logotipo" src="imagens/logotipo.png" alt="logotipo" />
 
-            <form target="_blank" action={"/tela-home-page"}>
+            <form target="_blank" action={"/HomePage"}>
                 <input type="text" placeholder="cnpj" required />
                 <br />
                 <input id="input2" type="password" placeholder="Senha" required />

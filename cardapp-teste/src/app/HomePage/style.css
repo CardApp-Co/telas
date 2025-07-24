@@ -8,10 +8,6 @@
   color: #273060;
 }
 
-*:active {
-  cursor: default;
-}
-
 body {
   padding-bottom: 50px;
   background-color: white;

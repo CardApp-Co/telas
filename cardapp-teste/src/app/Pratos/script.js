@@ -1,4 +1,3 @@
-
 const openButtons = document.querySelectorAll(".open-modal");
 
 openButtons.forEach((button) => {

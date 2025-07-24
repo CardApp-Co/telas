@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import TelaInicial from "./tela-inicial/page";
+import TelaInicial from "./Tela-inicial/page";
 
 export const metadata: Metadata = {
   title: "Cardapp - Tela Inicial",

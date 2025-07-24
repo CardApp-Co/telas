@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 10px;
+  margin: 0;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+p1 {
+  text-align: center;
+  font-weight: 500;
+  width: 260px;
+  word-break: break-word;
+  color: #727272;
+}
+
+input[type="file"]{
+  display: none;
+}
+
+input {
+  text-align: center;
+  background-color: #b8b8b8;
+  color: #727272;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px 30px;
+  border: 2px solid #727272;
+  border-radius: 15px;
+  transition: all 0.15s;
+  width: 250px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgba(72, 72, 72, 0.3);
+}
+
+.botao-close,
+.botao-submit {
+  padding: 5px 10px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.botao-close:hover,
+.botao-submit:hover {
+  opacity: 0.8;
+}
+
+.botao-close {
+  border: 2px solid #273060;
+  color: #273060;
+}
+
+.botao-submit {
+  border: 2px solid #273060;
+  color: white;
+  background-color: #273060;
+}
+
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 10px 20px 10px;
+}
+
+.container-modal p {
+  color: white;
+  background-color: #273060;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-input label {
+  width: 200px;
+  word-break: break-word;
+  font-weight: 700;
+  color: #727272;
+  text-align: center;
+}
+
+.container-input label[for="input-file"] {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.container-input label[for="input-file"]:hover {
+  opacity: 0.6;
+}

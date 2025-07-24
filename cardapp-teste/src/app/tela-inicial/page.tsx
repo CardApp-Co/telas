@@ -13,10 +13,10 @@ export default function TelaInicial() {
       </div>
       <div className="col2">
         <p className="p1">INÍCIO</p>
-        <a target="_blank" href="/tela-home-page">
+        <a target="_blank" href="/HomePage">
           <button>ENTRAR</button>
         </a>
-        <a target="_blank" href="/tela-cadastro">
+        <a target="_blank" href="/Cadastro">
           <button>CADASTRAR</button>
         </a>
 
