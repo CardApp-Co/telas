@@ -1,4 +1,3 @@
-import styles from "../styles/style_header.css";
 
 export default function DefaultHeader(props) {
     return (
@@ -9,10 +8,10 @@ export default function DefaultHeader(props) {
                 </div>
 
                 <div className="new-navbar">
-                    <a href="HomePage">LOJA</a>
-                    <a href="Pratos">PRATOS</a>
-                    <a href="Financeiro">FINANCEIRO</a>
-                    <a href="Perfil">PERFIL</a>
+                    <a href="/HomePage">LOJA</a>
+                    <a href="/Pratos">PRATOS</a>
+                    <a href="/Financeiro">FINANCEIRO</a>
+                    <a href="/Perfil">PERFIL</a>
                 </div>
             </header>
         </>

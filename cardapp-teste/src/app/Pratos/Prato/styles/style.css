@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    overflow-y: visible;
+}
+
+body {
+}
+
+main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-prato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d9d9d9;
+  height: 42vw;
+  padding: 50px;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container1-nomeDoPrato {
+  font-family: Roboto;
+  background-color: #273060;
+  color: white;
+  padding: 10px 50px;
+  width: 600px;
+  word-break: break-word;
+  font-size: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container1-imagem {
+  width: 600px;
+}
+.container1-imagem img {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.container2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container2-nome {
+  font-family: Roboto;
+  background-color: #273060;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container2-descricao {
+  font-family: Roboto;
+  background-color: white;
+  color: #273060;
+  font-weight: 700;
+  font-size: 20px;
+  word-break: break-word;
+  max-width: 600px;
+  border-radius: 0px 0px 10px 10px;
+}

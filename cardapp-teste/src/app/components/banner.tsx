@@ -1,5 +1,3 @@
-import styles from "../styles/style_banner.css";
-
 export default function Banner(props) {
     return (
         <>

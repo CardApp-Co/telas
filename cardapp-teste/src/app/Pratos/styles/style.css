@@ -26,6 +26,7 @@ button {
   background-color: transparent;
 }
 
+/*
 .container-criar-secao {
   display: flex;
   justify-content: end;
@@ -51,8 +52,10 @@ button {
   opacity: 0.7;
 }
 
+*/
+
 .container-secao {
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .container-secao-div-acima span {
@@ -96,6 +99,11 @@ button {
   align-items: center;
   margin-right: 50px;
   text-align: center;
+  transition: opacity 0.15s;
+}
+.container-prato:hover{
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .container-prato p {
@@ -111,10 +119,16 @@ button {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  border: 3px solid #273060;
+  border: 2px solid #273060;
   border-radius: 5px;
   padding: 70px;
+  transition: all 0.15s;
 }
+
+/*.prato-imagem:hover{
+  opacity: 0.6;
+  filter: blur(2px);
+}*/
 
 .adicionar-prato {
   font-size: 120px;
