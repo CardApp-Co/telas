@@ -8,7 +8,7 @@ body {
 
 form{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,22 +39,24 @@ form input:focus{
   color: #273060;
 }
 
-#cadastrar {
+#login {
   color: #273060;
   font-weight: 900;
   background-color: #e9e9e9;
   cursor: pointer;
   border: 0px;
-  width: 250.069px;
+  width: 240.069px;
   height: 58.056px;
+  margin-top: 43.94px;
   transition: opacity 0.15s;
 }
 
-#cadastrar:hover {
+#login:hover {
   opacity: 0.7;
 }
 
-#cadastrar:active {
+#login:active {
+  cursor: default;
   opacity: 0.5;
 }
 
@@ -65,24 +67,3 @@ form input:focus{
   font-size: 20px;
   font-family: Roboto;
 }
-
-#input-file {
-  display: none;
-}
-
-#input-file-label{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  color: #727272;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-#input-file-label:hover{
-  opacity: 0.7;
-}
-
-
-

@@ -1,3 +1,36 @@
+# PRO FALEH
+#### FORMULÁRIOS
+estão nos page.tsx de: 
+- src/app/Cadastro
+- src/app/Login
+- src/app/components/modal1.tsx
+
+obs: modal1 para criar um novo prato
+
+#### Telas
+
+em HomePage está sendo implementado os componentes:
+- Banner e PratoSugerido
+
+<br><br/>
+em Pratos está sendo implementada os componentes:
+- Secao, SecaoPratos e modal1
+
+<br><br/>
+em Prato está sendo implementada o componente:
+- Prato
+
+
+#### veja em src/app/components:
+
+- Banner
+- prato
+- pratoSugerido
+- secao_prato
+- prato
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

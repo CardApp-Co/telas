@@ -59,7 +59,7 @@ button {
 }
 
 .container-secao-div-acima span {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 700;
   background-color: #273060;
   color: white;
@@ -68,6 +68,7 @@ button {
   border-radius: 10px 10px 0px 0px;
 }
 
+/*
 .container-secao-div-acima span button {
   border: none;
   cursor: pointer;
@@ -81,10 +82,10 @@ button {
 
 .container-secao-div-acima span button:hover {
   opacity: 0.7;
-}
+}*/
 
 .container-secao-pratos {
-  margin-top: 7px;
+  margin-top: 4px;
   background-color: #d9d9d9;
   display: flex;
   flex-direction: row;
@@ -97,7 +98,8 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 45px;
+  margin-left: 10px;
   text-align: center;
   transition: opacity 0.15s;
 }
@@ -115,14 +117,18 @@ button {
 }
 
 .prato-imagem {
-  background-image: url(/imagens/imagem-placeholder.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
+  width: 150px;
+  height: 150px;
   border: 2px solid #273060;
   border-radius: 5px;
-  padding: 70px;
   transition: all 0.15s;
+}
+
+.prato-imagem img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
 }
 
 /*.prato-imagem:hover{
@@ -131,28 +137,15 @@ button {
 }*/
 
 .adicionar-prato {
-  font-size: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
   cursor: pointer;
   transition: opacity 0.15s;
+}
+
+.adicionar-prato img{
+  width: 120px;
 }
 
 .adicionar-prato:hover {
   opacity: 0.7;
 }
 
-.adicionar-prato span {
-  font-size: 20px;
-  color: #7b7b7b;
-}
-.adicionar-prato i {
-  color: #7b7b7b;
-}
-
-.adicionar-secao {
-  font-size: 15px;
-  color: #273060;
-}

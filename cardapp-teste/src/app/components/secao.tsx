@@ -1,6 +1,3 @@
-import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default function Secao(props) {
     return (
         <>
@@ -14,6 +11,7 @@ export default function Secao(props) {
                 </div>
                 <div className=" container-secao-pratos">
                     {props.children}
+                    <Botao_secao />
                 </div>
             </div >
         </>
@@ -29,7 +27,8 @@ export function Botao_secao() {
             }
         }}>
             <div className="adicionar-prato">
-                <FontAwesomeIcon icon={faCirclePlus} size="1x" />
+                <img src="/imagens/add_circle.svg" alt="" />
+                <span>Adicionar Prato</span>
             </div>
         </button>
     );

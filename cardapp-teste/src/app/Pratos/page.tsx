@@ -9,7 +9,7 @@ import './styles/style.css';
 import './styles/style_modal.css';
 
 import { useEffect } from 'react';
-import Secao, { Botao_secao } from "../components/secao";
+import Secao from "../components/secao";
 import Modal1 from "../components/modal1";
 
 
@@ -58,16 +58,23 @@ export default function Pratos() {
             <DefaultHeader></DefaultHeader>
 
             <Secao secao_nome="Pratos Sugeridos">
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
-                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+            </Secao>
 
-                <Botao_secao />
-
+            <Secao secao_nome="Pratos recentes">
+                <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
+                <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
             </Secao>
 
             <Modal1></Modal1>

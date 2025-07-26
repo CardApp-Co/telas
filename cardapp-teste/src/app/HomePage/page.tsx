@@ -17,6 +17,7 @@ export default function TelaHomePage() {
 
             <main>
                 <Banner
+                    imagem="/imagens/imagem-placeholder.png"
                     nome="RESTAURANTE MASSA"
                     email="carlinhos.gustavo@gmail.com"
                     cnpj="66666-666"

@@ -7,21 +7,27 @@ export const metadata: Metadata = {
 
 export default function TelaInicial() {
   return (
-    <div className="maiorDiv">
-      <div className="col1">
-        <img id="img-logotipo" src="./imagens/logotipo.png" alt="logotipo" />
+    <>
+      <div className="div-body">
+        <div className="col1">
+          <img id="img-logotipo" src="/imagens/logotipo.png" alt="/imagens/logotipo.png"></img>
+          <div>
+            <img id="img-grupo-comida" src="/imagens/grupo-comida.png" alt="/imagens/grupo-comida.png" />
+          </div>
+        </div>
+        <div className="col2">
+          <h1>INÍCIO</h1>
+          <div className="container-botoes">
+            <a href="/Login">
+              <button className="botao">LOGAR</button>
+            </a>
+            <a href="/Cadastro">
+              <button className="botao">CADASTRAR</button>
+            </a>
+          </div>
+          <p className="p-abaixo">Crie seu site</p>
+        </div>
       </div>
-      <div className="col2">
-        <p className="p1">INÍCIO</p>
-        <a target="_blank" href="/HomePage">
-          <button>ENTRAR</button>
-        </a>
-        <a target="_blank" href="/Cadastro">
-          <button>CADASTRAR</button>
-        </a>
-
-        <p id="p2">Crie seu Site</p>
-      </div>
-    </div>
+    </>
   );
 }
