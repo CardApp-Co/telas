@@ -10,7 +10,7 @@ import './styles/style_modal.css';
 
 import { useEffect } from 'react';
 import Secao from "../components/secao";
-import Modal1 from "../components/modal1";
+import Modal_Pratos from "../components/modal";
 
 
 export default function Pratos() {
@@ -57,7 +57,7 @@ export default function Pratos() {
         <>
             <DefaultHeader></DefaultHeader>
 
-            <Secao secao_nome="Pratos Sugeridos">
+            <Secao secao_nome="Pratos Sugeridos" modalId="modal-1">
                 <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
                 <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
                 <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
@@ -68,7 +68,7 @@ export default function Pratos() {
                 <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
             </Secao>
 
-            <Secao secao_nome="Pratos recentes">
+            <Secao secao_nome="Pratos recentes" modalId="modal-2">
                 <Secao_prato imagem="/imagens/imagem-placeholder.png" nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
                 <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
                 <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
@@ -77,7 +77,8 @@ export default function Pratos() {
                 <Secao_prato nome="rabanada com cuscuz e quiej oao molho sugo de whey da growth "></Secao_prato>
             </Secao>
 
-            <Modal1></Modal1>
+            <Modal_Pratos modalId="modal-1" />
+            <Modal_Pratos modalId="modal-2" />
         </>
     );
 }
